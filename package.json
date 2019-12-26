@@ -1,5 +1,5 @@
 {
-  "name": "utilities",
+  "name": "node-utilities",
   "description": "A collection of utility packages that helps the development.",
   "private": true,
   "version": "0.0.1",
@@ -21,6 +21,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "lerna": "^3.19.0"
+    "jest": "^24.9.0",
+    "lerna": "^3.19.0",
+    "typedoc": "^0.15.5",
+    "typescript": "^3.7.4"
   }
 }
