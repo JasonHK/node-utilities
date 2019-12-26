@@ -1,0 +1,15 @@
+{
+    "name": "node-utilities",
+    "mode": "modules",
+    "out": "docs",
+    "readme": "README.md",
+    "custom-tags-config": "configs/typedoc.tags.json",
+    "skipInternal": false,
+    "excludePrivate": true,
+    "exclude": [
+        "**/node_modules/**",
+        "**/*.spec.ts",
+        "**/tests/**/*.ts"
+    ],
+    "lernaExclude": []
+}
