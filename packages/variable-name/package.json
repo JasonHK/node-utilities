@@ -1,0 +1,28 @@
+{
+  "name": "@jasonhk/variable-name",
+  "description": "A utility package consists functions that used to retrieve the name of variables.",
+  "version": "0.0.1",
+  "license": "LGPL-3.0",
+  "author": "Jason Kwok <nodejs@jasonhk.email> (https://jasonhk.net)",
+  "homepage": "https://github.com/JasonHK/node-utilities/tree/master/packages/variable-name#readme",
+  "keywords": [
+    "variable-name"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonHK/node-utilities.git",
+    "directory": "packages/variable-name"
+  },
+  "bugs": {
+    "url": "https://github.com/JasonHK/node-utilities/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "@types/jest": "^24.0.24",
+    "jest": "^24.9.0",
+    "typescript": "^3.7.4"
+  }
+}

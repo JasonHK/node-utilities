@@ -1,0 +1,30 @@
+{
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "rootDir": "../",
+    "roots": [
+        "<rootDir>"
+    ],
+    "modulePaths": [
+        "<rootDir>"
+    ],
+    "transform": {
+        "^.+\\.ts$": "ts-jest"
+    },
+    "coverageDirectory": "./coverage",
+    "coverageReporters": [
+        "html",
+        "json",
+        "lcov",
+        "text",
+        "clover"
+    ],
+    "collectCoverageFrom": [
+        "src/**/*.ts"
+    ],
+    "globals": {
+        "ts-jest": {
+            "tsConfig": "./configs/tsconfig.test.json"
+        }
+    }
+}
