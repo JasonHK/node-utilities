@@ -4,16 +4,19 @@
  * Get the name of a variable as a string.
  * 
  * @remarks
- * You must wrap the variable with an object literal, like the example below.
+ * You must wrap the variable with an object literal, like the example below:
  * 
- * @param wrapper The target variable wrapped by an object literal
- * @return The name of the variable
- * 
- * @example
+ * ```typescript
  * const variable = 1337;
  * 
  * // Should return "variable"
  * getVariableName({ variable });
+ * ```
+ * 
+ * @since 0.0.1
+ * 
+ * @param wrapper The target variable wrapped by an object literal
+ * @return The name of the variable
  */
 export function getVariableName(wrapper: object): string
 {

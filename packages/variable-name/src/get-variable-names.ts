@@ -7,12 +7,9 @@ import { getVariableName } from "./get-variable-name";
  * 
  * @remarks
  * You must wrap the variables with an `Array` of object literal, like the
- * example below.
+ * example below:
  * 
- * @param wrappers The target variables wrapped by an `Array` of object literal
- * @return The names of the variables
- * 
- * @example
+ * ```typescript
  * const object = { property: 1337 };
  * const { property } = object;
  * 
@@ -22,6 +19,12 @@ import { getVariableName } from "./get-variable-name";
  *         { object },
  *         { property },
  *     ]);
+ * ```
+ * 
+ * @since 0.0.1
+ * 
+ * @param wrappers The target variables wrapped by an `Array` of object literal
+ * @return The names of the variables
  */
 export function getVariableNames(wrappers: object[]): string[]
 {
