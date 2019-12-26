@@ -1,0 +1,26 @@
+{
+  "name": "utilities",
+  "description": "A collection of utility packages that helps the development.",
+  "private": true,
+  "version": "0.0.1",
+  "license": "ISC",
+  "author": "Jason Kwok <nodejs@jasonhk.email> (https://jasonhk.net)",
+  "homepage": "https://github.com/JasonHK/node-utilities#readme",
+  "keywords": [
+    "utilities"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonHK/node-utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JasonHK/node-utilities/issues"
+  },
+  "scripts": {
+    "test": "npx lerna run test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
+}
