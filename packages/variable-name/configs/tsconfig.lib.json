@@ -3,6 +3,8 @@
     "compilerOptions": {
         "rootDir": "../src",
         "outDir": "../",
+        "declaration": false,
+        "removeComments": true,
     },
     "files": [
         "../src/index.ts",

@@ -1,5 +1,6 @@
 # Compiled Modules
 *.js
 *.js.map
+*.d.ts
 !/scripts/**/*.js
 !/scripts/**/*.js.map

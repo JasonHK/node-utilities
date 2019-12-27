@@ -1,7 +1,7 @@
 {
   "name": "@jasonhk/variable-name",
   "description": "A utility package consists functions that used to retrieve the name of variables.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "Jason Kwok <nodejs@jasonhk.email> (https://jasonhk.net)",
   "homepage": "https://github.com/JasonHK/node-utilities/tree/master/packages/variable-name#readme",
@@ -20,6 +20,7 @@
     "test": "npx jest --config=\"configs/jest.config.json\"",
     "test:coverage": "npx jest --config=\"configs/jest.config.json\" --coverage",
     "build": "npm run build:lib",
+    "build:def": "npx tsc --project \"configs/tsconfig.dec.json\"",
     "build:lib": "npx tsc",
     "prepublishOnly": "npm run test && npm run build"
   },
