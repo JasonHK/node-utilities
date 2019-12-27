@@ -1,0 +1,15 @@
+coverage:
+    status:
+        project:
+            default: off
+            variable-name:
+                flags: variable-name
+                target: 80%
+
+flags:
+    variable-name:
+        paths:
+            - packages/variable-name/src
+    tests:
+        paths:
+            - tests/
