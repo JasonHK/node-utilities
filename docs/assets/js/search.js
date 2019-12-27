@@ -1,0 +1,3 @@
+var typedoc = typedoc || {};
+            typedoc.search = typedoc.search || {};
+            typedoc.search.data = {"kinds":{"2":"Module","64":"Function"},"rows":[{"id":0,"kind":64,"name":"getVariableName","url":"modules/_jasonhk_variable_name.html#getvariablename","classes":"tsd-kind-function tsd-parent-kind-module","parent":"@jasonhk/variable-name"},{"id":1,"kind":64,"name":"getVariableNames","url":"modules/_jasonhk_variable_name.html#getvariablenames","classes":"tsd-kind-function tsd-parent-kind-module","parent":"@jasonhk/variable-name"},{"id":2,"kind":2,"name":"@jasonhk/variable-name","url":"modules/_jasonhk_variable_name.html","classes":"tsd-kind-module"}]};
