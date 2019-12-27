@@ -1,0 +1,8 @@
+[
+    {
+        "tagName": "example",
+        "template": "\n#### Example\n\n```typescript\n{content}\n```\n",
+        "combine": "none",
+        "hidden": true
+    }
+]
