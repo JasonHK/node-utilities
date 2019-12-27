@@ -9,7 +9,7 @@ coverage:
 flags:
     variable-name:
         paths:
-            - packages/variable-name/src
+            - packages/variable-name
     tests:
         paths:
             - tests/
