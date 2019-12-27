@@ -17,6 +17,7 @@
     "url": "https://github.com/JasonHK/node-utilities/issues"
   },
   "scripts": {
+    "postinstall": "npx lerna bootstrap",
     "test": "npx lerna run test",
     "test:coverage": "npx lerna run test:coverage",
     "build": "npx lerna run build && npm run build:typedoc",
