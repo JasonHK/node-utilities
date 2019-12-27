@@ -13,6 +13,8 @@ scripts:
 after_success:
     - npm run test:coverage
     - npx codecov
+
+before_deploy:
     - npm run build:typedoc
 
 deploy:
