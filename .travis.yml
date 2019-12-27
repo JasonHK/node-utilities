@@ -10,5 +10,5 @@ scripts:
     - npm install -g codecov
 
 after_success:
-    - npn run test:coverage
+    - npm run test:coverage
     - npx codecov
