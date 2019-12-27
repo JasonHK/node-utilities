@@ -3,7 +3,7 @@
 
 A utility package consists functions that used to retrieve the name of variables.
 
-[![npm-version-badge]][npm-package] [![npm-download-badge]][npm-package] [![npm-license-badge]][github-license]
+[![npm-version-badge]][npm-package] [![npm-download-badge]][npm-package] [![npm-license-badge]][github-license] [![travis-build-badge]][travis-build]
 
 ## Installation
 
@@ -67,3 +67,6 @@ Licensed under the [MIT License][github-license].
 [npm-download-badge]: https://img.shields.io/npm/dt/@jasonhk/variable-name?style=flat-square
 [npm-license-badge]: https://img.shields.io/npm/l/@jasonhk/variable-name?style=flat-square
 [npm-version-badge]: https://img.shields.io/npm/v/@jasonhk/variable-name?style=flat-square
+
+[travis-build]: https://travis-ci.com/JasonHK/node-utilities
+[travis-build-badge]: https://img.shields.io/travis/com/JasonHK/node-utilities?style=flat-square
