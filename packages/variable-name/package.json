@@ -23,6 +23,9 @@
     "build:lib": "npx tsc",
     "prepublishOnly": "npm run test && npm run build"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {

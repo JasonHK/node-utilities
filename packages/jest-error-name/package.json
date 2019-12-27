@@ -1,6 +1,7 @@
 {
   "name": "@jasonhk/jest-error-name",
   "description": "A utility package consists of functions that used to stringify the name of an Jest error type.",
+  "private": true,
   "version": "0.0.0",
   "license": "MIT",
   "author": "Jason Kwok <nodejs@jasonhk.email> (https://jasonhk.net)",
