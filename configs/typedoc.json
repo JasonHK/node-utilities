@@ -10,7 +10,10 @@
     "exclude": [
         "**/node_modules/**",
         "**/*.spec.ts",
-        "**/tests/**/*.ts"
+        "**/tests/**/*.ts",
+        "**/types/**/*"
     ],
-    "lernaExclude": []
+    "lernaExclude": [
+        "@jasonhk/jest-error-name"
+    ]
 }

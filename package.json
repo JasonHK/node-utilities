@@ -2,7 +2,7 @@
   "name": "node-utilities",
   "description": "A collection of utility packages that helps the development.",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.0",
   "license": "ISC",
   "author": "Jason Kwok <nodejs@jasonhk.email> (https://jasonhk.net)",
   "homepage": "https://github.com/JasonHK/node-utilities#readme",
@@ -18,12 +18,15 @@
   },
   "scripts": {
     "test": "npx lerna run test",
+    "test:coverage": "npx lerna run test:coverage",
+    "build": "npx lerna run build && npm run build:typedoc",
     "build:typedoc": "npx typedoc --options \"configs/typedoc.json\""
   },
   "dependencies": {},
   "devDependencies": {
     "jest": "^24.9.0",
     "lerna": "^3.19.0",
+    "ts-jest": "^24.2.0",
     "typedoc": "^0.15.5",
     "typedoc-plugin-custom-tags": "^1.0.2",
     "typedoc-plugin-lerna-packages": "^0.2.2",
