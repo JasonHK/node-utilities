@@ -19,9 +19,7 @@
   "bugs": {
     "url": "https://github.com/JasonHK/node-utilities/issues"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
+  "scripts": {},
   "publishConfig": {
     "access": "public"
   },

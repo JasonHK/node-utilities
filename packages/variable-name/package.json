@@ -17,10 +17,10 @@
     "url": "https://github.com/JasonHK/node-utilities/issues"
   },
   "scripts": {
-    "test": "npx jest --config=\"configs/jest.config.json\"",
-    "test:coverage": "npx jest --config=\"configs/jest.config.json\" --coverage",
+    "test": "jest --config=\"configs/jest.config.json\"",
+    "test:coverage": "jest --config=\"configs/jest.config.json\" --coverage",
     "build": "npm run build:lib",
-    "build:lib": "npx tsc",
+    "build:lib": "tsc",
     "prepublishOnly": "npm run test && npm run build"
   },
   "publishConfig": {
