@@ -31,6 +31,7 @@
     "typedoc-plugin-custom-tags": "^1.0.2",
     "typedoc-plugin-lerna-packages": "^0.2.2",
     "typedoc-plugin-linkrewriter": "^0.1.1",
+    "typedoc-plugin-nojekyll": "^1.0.1",
     "typescript": "^3.7.4"
   }
 }
