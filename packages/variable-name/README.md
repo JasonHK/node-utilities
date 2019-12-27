@@ -68,5 +68,5 @@ Licensed under the [MIT License][github-license].
 [npm-license-badge]: https://img.shields.io/npm/l/@jasonhk/variable-name?style=flat-square
 [npm-version-badge]: https://img.shields.io/npm/v/@jasonhk/variable-name?style=flat-square
 
-[travis-build]: https://travis-ci.com/JasonHK/node-utilities
-[travis-build-badge]: https://img.shields.io/travis/com/JasonHK/node-utilities?style=flat-square
+[travis-build]: https://travis-ci.com/JasonHK/node-utilities "Travis CI"
+[travis-build-badge]: https://img.shields.io/travis/com/JasonHK/node-utilities?style=flat-square "Travis CI Badge"
