@@ -63,13 +63,13 @@ Licensed under the [MIT License][github-license].
 
 [github-license]: https://github.com/JasonHK/node-utilities/blob/master/packages/variable-name/LICENSE "Package's License File"
 
-[npm-package]: https://www.npmjs.com/package/@jasonhk/variable-name "Package's Registry Entry"
+[npm-package]: https://www.npmjs.com/package/@jasonhk/variable-name "Package's NPM Registry Entry"
 [npm-download-badge]: https://img.shields.io/npm/dt/@jasonhk/variable-name?style=flat-square "Package's Total Downloads"
 [npm-license-badge]: https://img.shields.io/npm/l/@jasonhk/variable-name?style=flat-square "Package's License"
 [npm-version-badge]: https://img.shields.io/npm/v/@jasonhk/variable-name?style=flat-square "Package's Version"
 
-[travis-build]: https://travis-ci.com/JasonHK/node-utilities "Travis CI"
+[travis-build]: https://travis-ci.com/JasonHK/node-utilities "Repository's Travis CI Page"
 [travis-build-badge]: https://img.shields.io/travis/com/JasonHK/node-utilities?style=flat-square "Repository's Build Status"
 
-[codecov-coverage]: https://codecov.io/gh/JasonHK/node-utilities "Codecov"
+[codecov-coverage]: https://codecov.io/gh/JasonHK/node-utilities "Repository's Codecov Page"
 [codecov-coverage-badge]: https://img.shields.io/codecov/c/github/JasonHK/node-utilities?style=flat-square "Repository's Code Coverage"
