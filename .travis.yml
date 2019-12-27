@@ -13,3 +13,11 @@ scripts:
 after_success:
     - npm run test:coverage
     - npx codecov
+
+deploy:
+    provider: pages
+    github_token: $GITHUB_DEPLOY_TOKEN
+    skip_cleanup: true
+    local_dir: docs
+    on:
+        branch: master
