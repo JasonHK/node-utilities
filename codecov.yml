@@ -3,11 +3,11 @@ coverage:
         project:
             default: off
             variable-name:
-                flags: variable-name
+                flags: variable_name
                 target: 80%
 
 flags:
-    variable-name:
+    variable_name:
         paths:
             - packages/variable-name
     tests:
