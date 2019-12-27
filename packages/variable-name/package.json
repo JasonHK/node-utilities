@@ -1,7 +1,7 @@
 {
   "name": "@jasonhk/variable-name",
   "description": "A utility package consists functions that used to retrieve the name of variables.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "Jason Kwok <nodejs@jasonhk.email> (https://jasonhk.net)",
   "homepage": "https://github.com/JasonHK/node-utilities/tree/master/packages/variable-name#readme",
