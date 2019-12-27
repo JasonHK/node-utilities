@@ -3,7 +3,7 @@
 
 A utility package consists functions that used to retrieve the name of variables.
 
-[![npm-version-badge]][npm-package] [![npm-download-badge]][npm-package] [![npm-license-badge]][github-license] [![travis-build-badge]][travis-build]
+[![npm-version-badge]][npm-package] [![npm-download-badge]][npm-package] [![npm-license-badge]][github-license] [![travis-build-badge]][travis-build] [![codecov-coverage-badge]][codecov-coverage]
 
 ## Installation
 
@@ -59,14 +59,17 @@ getVariableNames(
 Copyright &copy; 2019 [Jason Kwok][author-website].<br>
 Licensed under the [MIT License][github-license].
 
-[author-website]: https://jasonhk.net
+[author-website]: https://jasonhk.net "Author's Website"
 
-[github-license]: https://github.com/JasonHK/node-utilities/blob/master/packages/variable-name/LICENSE
+[github-license]: https://github.com/JasonHK/node-utilities/blob/master/packages/variable-name/LICENSE "Package's License File"
 
-[npm-package]: https://www.npmjs.com/package/@jasonhk/variable-name
-[npm-download-badge]: https://img.shields.io/npm/dt/@jasonhk/variable-name?style=flat-square
-[npm-license-badge]: https://img.shields.io/npm/l/@jasonhk/variable-name?style=flat-square
-[npm-version-badge]: https://img.shields.io/npm/v/@jasonhk/variable-name?style=flat-square
+[npm-package]: https://www.npmjs.com/package/@jasonhk/variable-name "Package's Registry Entry"
+[npm-download-badge]: https://img.shields.io/npm/dt/@jasonhk/variable-name?style=flat-square "Package's Total Downloads"
+[npm-license-badge]: https://img.shields.io/npm/l/@jasonhk/variable-name?style=flat-square "Package's License"
+[npm-version-badge]: https://img.shields.io/npm/v/@jasonhk/variable-name?style=flat-square "Package's Version"
 
 [travis-build]: https://travis-ci.com/JasonHK/node-utilities "Travis CI"
-[travis-build-badge]: https://img.shields.io/travis/com/JasonHK/node-utilities?style=flat-square "Travis CI Badge"
+[travis-build-badge]: https://img.shields.io/travis/com/JasonHK/node-utilities?style=flat-square "Repository's Build Status"
+
+[codecov-coverage]: https://codecov.io/gh/JasonHK/node-utilities "Codecov"
+[codecov-coverage-badge]: https://img.shields.io/codecov/c/github/JasonHK/node-utilities?style=flat-square "Repository's Code Coverage"
