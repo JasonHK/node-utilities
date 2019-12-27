@@ -13,6 +13,7 @@ scripts:
 after_success:
     - npm run test:coverage
     - npx codecov
+    - npm run build:typedoc
 
 deploy:
     provider: pages
