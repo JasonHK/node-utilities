@@ -19,6 +19,10 @@
         "text",
         "clover"
     ],
+    "coveragePathIgnorePatterns": [
+        "/node_modules/",
+        "src/index"
+    ],
     "collectCoverageFrom": [
         "src/**/*.ts"
     ],

@@ -6,8 +6,8 @@
             "*": [
                 "node_modules/*",
             ],
-            "src": [
-                "../",
+            "src/*": [
+                "src",
             ],
             "jest-in-case": [
                 "types/jest-in-case",
