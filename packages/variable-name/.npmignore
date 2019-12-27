@@ -1,0 +1,15 @@
+# Project Configuration
+/configs
+/tsconfig.json
+
+# Source Code
+/src
+
+# Type Definitions
+/types/jest-in-case
+
+# Test Suite
+/tests
+
+# Coverage Report
+/coverage
