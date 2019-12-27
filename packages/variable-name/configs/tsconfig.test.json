@@ -2,6 +2,17 @@
     "extends": "./tsconfig.json",
     "compilerOptions": {
         "rootDir": "../",
+        "paths": {
+            "*": [
+                "node_modules/*",
+            ],
+            "src": [
+                "../",
+            ],
+            "jest-in-case": [
+                "types/jest-in-case",
+            ],
+        },
     },
     "files": [],
     "include": [

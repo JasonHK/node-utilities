@@ -3,6 +3,7 @@
     "mode": "modules",
     "out": "docs",
     "readme": "README.md",
+    "rewriteLinks": "./configs/typedoc.links.js",
     "custom-tags-config": "configs/typedoc.tags.json",
     "skipInternal": false,
     "excludePrivate": true,
