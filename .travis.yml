@@ -6,8 +6,8 @@ node_js:
     - 11
     - 12
 
-# scripts:
-#     - npm install -g codecov
+scripts:
+    - npm install -g codecov
 
-# after_success:
-#     - npx codecov
+after_success:
+    - npx codecov
