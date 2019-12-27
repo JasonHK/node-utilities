@@ -14,10 +14,7 @@
     "coverageDirectory": "./coverage",
     "coverageReporters": [
         "html",
-        "json",
-        "lcov",
-        "text",
-        "clover"
+        "lcov"
     ],
     "coveragePathIgnorePatterns": [
         "/node_modules/",
