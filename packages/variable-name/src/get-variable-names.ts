@@ -14,7 +14,7 @@ import { getVariableName } from "./get-variable-name";
  * const { property } = object;
  * 
  * // Should return ["object", "property"]
- * getVariableName(
+ * getVariableNames(
  *     [
  *         { object },
  *         { property },
