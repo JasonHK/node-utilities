@@ -1,0 +1,24 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "rootDir": "../",
+        "paths": {
+            "*": [
+                "node_modules/*",
+            ],
+            "src/*": [
+                "src",
+            ],
+            "jest-in-case": [
+                "types/jest-in-case",
+            ],
+        },
+    },
+    "files": [],
+    "include": [
+        "../tests/**/*.ts",
+    ],
+    "exclude": [
+        "../src"
+    ],
+}

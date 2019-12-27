@@ -20,7 +20,8 @@
     "test": "npx jest --config=\"configs/jest.config.json\"",
     "test:coverage": "npx jest --config=\"configs/jest.config.json\" --coverage",
     "build": "npm run build:lib",
-    "build:lib": "npx tsc"
+    "build:lib": "npx tsc",
+    "prepublishOnly": "npm run test && npm run build"
   },
   "main": "index.js",
   "dependencies": {},

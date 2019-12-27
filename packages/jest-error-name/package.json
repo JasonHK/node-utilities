@@ -1,0 +1,36 @@
+{
+  "name": "@jasonhk/jest-error-name",
+  "description": "A utility package consists of functions that used to stringify the name of an Jest error type.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Jason Kwok <nodejs@jasonhk.email> (https://jasonhk.net)",
+  "homepage": "https://github.com/JasonHK/node-utilities/tree/master/packages/jest-error-name#readme",
+  "keywords": [
+    "jest",
+    "error",
+    "stringify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonHK/node-utilities.git",
+    "directory": "packages/jest-error-name"
+  },
+  "bugs": {
+    "url": "https://github.com/JasonHK/node-utilities/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "jest": "^24.9.0",
+    "jest-in-case": "^1.0.2",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  }
+}
