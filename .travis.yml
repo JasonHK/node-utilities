@@ -27,5 +27,5 @@ deploy:
     local_dir: docs
     cleanup: false
     on:
-        node: 13
+        node_js: 13
         branch: master
