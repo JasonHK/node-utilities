@@ -1,4 +1,4 @@
-sudo: false
+dist: bionic
 
 language: node_js
 node_js:
@@ -20,10 +20,11 @@ before_deploy:
     - npm run build:typedoc
 
 deploy:
-    provider: pages
-    github_token: $GITHUB_DEPLOY_TOKEN
-    skip_cleanup: true
+    edge: true
+    provider: pages:git
+    token: $GITHUB_DEPLOY_TOKEN
     local_dir: docs
+    cleanup: false
     on:
         node: 13
         branch: master
