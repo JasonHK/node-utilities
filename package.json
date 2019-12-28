@@ -18,15 +18,22 @@
   },
   "scripts": {
     "postinstall": "npx lerna bootstrap",
-    "test": "npx lerna run test",
-    "test:coverage": "npx lerna run test:coverage",
-    "build": "npx lerna run build && npm run build:typedoc",
-    "build:typedoc": "npx typedoc --options \"configs/typedoc.json\""
+    "test": "npm run lerna:test",
+    "test:coverage": "npm run lerna:test:coverage",
+    "build": "npx run-p -ln lerna:build build:**",
+    "build:typedoc": "npx typedoc --options \"configs/typedoc.json\"",
+    "clean": "npx lerna run clean",
+    "lerna:build": "npx lerna run build",
+    "lerna:clean": "npx lerna run clean",
+    "lerna:test": "npx lerna run test",
+    "lerna:test:coverage": "npx lerna run test:coverage"
   },
   "dependencies": {},
   "devDependencies": {
     "jest": "^24.9.0",
     "lerna": "^3.19.0",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.0",
     "ts-jest": "^24.2.0",
     "typedoc": "^0.15.5",
     "typedoc-plugin-custom-tags": "^1.0.2",
