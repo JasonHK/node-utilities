@@ -19,9 +19,9 @@
   "scripts": {
     "test": "npx jest --config=\"configs/jest.config.json\"",
     "test:coverage": "npx jest --config=\"configs/jest.config.json\" --coverage",
-    "build": "npm run build:lib && npm run build:dec",
-    "build:dec": "npx tsc --project \"configs/tsconfig.dec.json\"",
-    "build:lib": "npx tsc",
+    "build": "npm run build:library && npm run build:declaration",
+    "build:declaration": "npx tsc --project \"configs/tsconfig.declaration.json\"",
+    "build:library": "npx tsc",
     "prepublishOnly": "npm run test && npm run build"
   },
   "publishConfig": {
