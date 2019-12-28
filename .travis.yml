@@ -21,7 +21,7 @@ before_deploy:
 
 deploy:
     edge: true
-    provider: pages:git
+    provider: pages
     token: $GITHUB_DEPLOY_TOKEN
     local_dir: docs
     cleanup: false
