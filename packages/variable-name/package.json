@@ -29,14 +29,13 @@
     "prepublishOnly": "npx run-s -ln test build",
     "postpublish": "npm run clean:library",
     "clean": "npx run-s -ln clean:*",
-    "clean:build": "npx rimraf -- \"./*.@(js|js.map|d.ts)\" ./dist",
+    "clean:build": "npx rimraf -- \"./*.@(js|js.map|d.ts)\" ./esm ./dist",
     "clean:coverage": "npx rimraf -- coverage"
   },
   "publishConfig": {
     "access": "public"
   },
   "main": "index.js",
-  "module": "dist/",
   "dependencies": {},
   "devDependencies": {
     "@rollup/plugin-typescript": "^2.0.1",
