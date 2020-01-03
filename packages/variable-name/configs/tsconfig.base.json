@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "baseUrl": "../",
+        "lib": [
+            "ES2015",
+        ],
+        "paths": {
+            "*": [
+                "node_modules/*",
+            ],
+            "jest-in-case": [
+                "types/jest-in-case",
+            ],
+        },
+        "allowJs": false,
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "esModuleInterop": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "sourceMap": true,
+    },
+}

@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "target": "ES5",
+        "rootDir": "../src",
+        "outDir": "../",
+    },
+    "files": [
+        "../src/index.ts",
+        "../src/get-variable-name.ts",
+        "../src/get-variable-names.ts",
+    ],
+}

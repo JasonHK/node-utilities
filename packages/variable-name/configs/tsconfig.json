@@ -1,26 +1,3 @@
 {
-    "compilerOptions": {
-        "target": "esnext",
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "baseUrl": "../",
-        "lib": [
-            "ES2015",
-        ],
-        "paths": {
-            "*": [
-                "node_modules/*",
-            ],
-            "jest-in-case": [
-                "types/jest-in-case",
-            ],
-        },
-        "allowJs": false,
-        "allowSyntheticDefaultImports": true,
-        "alwaysStrict": true,
-        "esModuleInterop": true,
-        "noImplicitReturns": true,
-        "noImplicitThis": true,
-        "sourceMap": true,
-    },
+    "extends": "./tsconfig.build.configs.json",
 }

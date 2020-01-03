@@ -2,5 +2,11 @@
 *.js
 *.js.map
 *.d.ts
+/esm
+/dist
+!/configs/**/*.js
 !/scripts/**/*.js
 !/scripts/**/*.js.map
+
+# Configuration Files
+/configs/rollup.config.js

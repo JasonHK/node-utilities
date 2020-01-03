@@ -1,0 +1,8 @@
+{
+    "extends": "./tsconfig.build.src.cjs.json",
+    "compilerOptions": {
+        "declaration": false,
+        "emitDeclarationOnly": false,
+        "removeComments": true,
+    },
+}
